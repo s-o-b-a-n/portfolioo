@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f8fc;
+    color: #1f2937;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: #0f172a; /* deep professional dark */
+    color: white;
+}
+
+.navbar a {
+    color: #cbd5e1;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #38bdf8;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb, #3b82f6);
+    color: white;
+}
+
+/* HERO TEXT */
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text span {
+    color: #facc15; /* gold highlight */
+}
+
+/* PROFILE IMAGE BOX */
+.hero-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: 5px solid #38bdf8;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* IMAGE FIX (NO CUTTING) */
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #facc15;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #0f172a;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background: #2563eb;
+    color: rgb(240, 235, 235);
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
+/* PROJECT CARDS */
+.card {
+    background: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* CONTACT */
+.contact {
+    background: #0f172a;
+    color: rgb(20, 19, 19);
+    padding: 40px;
+}
+.footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+/* Footer heading */
+.footer h2 {
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+/* Contact info */
+.footer p {
+    margin: 6px 0;
+    color: #cbd5e1;
+}
+
+/* Bottom line */
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #334155;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #94a3b8;
+}
